@@ -1,4 +1,4 @@
-FROM markadams/chromium-xvfb
+FROM productivityindustries/chromium-xvfb
 
 WORKDIR /usr/src/app
 
