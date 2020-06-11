@@ -1,4 +1,4 @@
-FROM productivityindustries/chromium-xvfb
+FROM productivityindustries/docker-chromium-xvfb
 
 WORKDIR /usr/src/app
 
