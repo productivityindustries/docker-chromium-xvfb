@@ -1,6 +1,6 @@
 FROM debian:stable
 
-RUN apt-get update && apt-get install -y curl xvfb chromium unzip which
+RUN apt-get update && apt-get install -y curl xvfb chromium unzip
 COPY pin_nodesource /etc/apt/preferences.d/nodesource
 
 ADD xvfb-chromium /usr/bin/xvfb-chromium
